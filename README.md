@@ -1,18 +1,21 @@
 # AI_to_play_Snakes
 
-The code builds a neural network that learns to play classic Snakes game using Reinforcement Learning(Q-Learning) and saves the highest-scoring model in `./model` folder.  
+The code builds a neural network that learns to play classic Snakes game using Reinforcement Learning(Q-Learning) and saves the highest-scoring model in `./model` folder. The game environment is also built from scratch using pygame.  
 
-For this project I took the reference from Patrick Loeber's repository:  
+For this project I referred Patrick Loeber's repository:  
 https://github.com/patrickloeber/snake-ai-pytorch  
 and video tutorials can be found at:  
-Author's personal playlist: https://www.youtube.com/playlist?list=PLqnslRFeH2UrDh7vUmJ60YrmWd64mTTKV
-Merged version at freeCodeCamp channel: https://www.youtube.com/watch?v=L8ypSXwyBds  
-This repository though has similarity to original one, has much change high level overview and  implementation logic in order for it to suit my own way of thinking.
+Author's personal playlist:  
+https://www.youtube.com/playlist?list=PLqnslRFeH2UrDh7vUmJ60YrmWd64mTTKV
+Merged version at freeCodeCamp channel:  
+https://www.youtube.com/watch?v=L8ypSXwyBds  
+
+Though this repository though has similarity to original one, it has considerable change in high level overview and implementation logic.
 
 ----
 # Libraries used
 1. PyTorch `torch`: To build the neural network model and its trainer.
-2. `pygame`: To build the snake game environment. The environment is built from scratch.
+2. `pygame`: To build the snake game environment.
 3. `ipython`: To plot the training scores, to create the display window.
 4. `matplotlib`: To plot the training scores, on the created window.
 7. `numpy`
@@ -42,12 +45,12 @@ This repository though has similarity to original one, has much change high leve
 # To Run
 
 ### Install required libraries
-`pip install -r requirements.txt`
-If incompatability arises, use below to use the version used during development:  
+`pip install -r requirements.txt`  
+If incompatability in installed libraries arises, use below to use the libraries with versions used during development:  
 `pip install -r requirements_with_versions_used.txt`  
 
 ### Run
-`python3 Agent.py`  
+```python3 Agent.py```  
 By default a trained model is loaded and used. Comment the loading of pretrained model in `__main__` block of `Agent.py` to avoid this.
 
 ----
@@ -55,9 +58,9 @@ By default a trained model is loaded and used. Comment the loading of pretrained
 It is a very simple model with following layers:  
 | Layer No | Type | In-Feature | Out-Feature | Learnable Parameters |
 |----------|------|------------|-------------|-----------------|
-| 1 | Linear | 11 | 512 | 6144 |
-|  | LeakyReLU | 512 | 512 | - |
-| 2 | Linear | 512 | 3 | 1539 |
+| 1        |Linear|  11        | 512         | 6144 |
+|          | LeakyReLU | 512   | 512 | - |
+| 2       | Linear | 512       | 3 | 1539 |
 | | | | Total: | 7683 |
 
 
@@ -86,7 +89,7 @@ It is a very simple model with following layers:
 
 ## Mind
 1. A simple Neural-Network.
-2. Predicts next action(Actually Q-values for all possible actions that we can take from current state) based upon provided epsilon(chance of random move).
+2. Predicts next action(Actually Q-value:Expected future reward associated with each possible action from current state) and also takes epsilon(chance of random move).
 
 ## QTrainer
 1. Takes a Mind() model.
