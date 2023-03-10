@@ -10,6 +10,13 @@ Merged version at freeCodeCamp channel: https://www.youtube.com/watch?v=L8ypSXwy
 This repository though has similarity to original one, has much change high level overview and  implementation logic in order for it to suit my own way of thinking.
 
 ----
+# Shots
+![Intial Phases](./images/initial_game.png)
+![Later Phases](./images/later_games.png)
+![Later Phases](./images/late_games2.png)
+
+
+----
 # Libraries used
 1. PyTorch `torch`: To build the neural network model and its trainer.
 2. `pygame`: To build the snake game environment. The environment is built from scratch.

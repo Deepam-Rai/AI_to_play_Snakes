@@ -149,9 +149,13 @@ class Snake:
         return rels
 
     def draw(self, display):
-        for b in self.body:
+        #body
+        for b in self.body[1:]:
             pygame.draw.rect(display, BLUE_BORDER, pygame.Rect(b.x, b.y, BLOCK_SIZE, BLOCK_SIZE))
             pygame.draw.rect(display, BLUE, pygame.Rect(b.x+4, b.y+4, BLOCK_SIZE-8, BLOCK_SIZE-8))
+        #Head
+        pygame.draw.rect(display, HEAD_BORDER, pygame.Rect(self.head.x, self.head.y, BLOCK_SIZE, BLOCK_SIZE))
+        pygame.draw.rect(display, HEAD_COLOR, pygame.Rect(self.head.x+4, self.head.y+4, BLOCK_SIZE-8, BLOCK_SIZE-8))
             
 
 # Game class
