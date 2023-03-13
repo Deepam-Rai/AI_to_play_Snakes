@@ -24,15 +24,16 @@ Initial Phases:
 <video width="800" height="450" controls>
   <source src="./game_play/noob.mp4" type="video/mp4">
   Your browser does not support the video tag.  
-  [Click here to view video](./game_play/noob.mp4)
 </video>
+  [Click here to view video if browser doesnt support rendering.](./game_play/noob.mp4)
 
 Trained:
 <video width="800" height="450" controls>
   <source src="./game_play/pro.mp4" type="video/mp4">
   Your browser does not support the video tag.  
-  [Click here to view video](./game_play/pro.mp4)
 </video>
+  [Click here to view video if browser doesnt support rendering.](./game_play/pro.mp4)
+
 
 ----
 # Libraries used
@@ -74,6 +75,18 @@ If incompatability in installed libraries arises, use below to use the libraries
 ### Run
 ```python3 Agent.py```  
 By default a trained model is loaded and used. Comment the loading of pretrained model in `__main__` block of `Agent.py` to avoid this.
+
+# Human controlled Game
+You can run following to play the game by manual control:  
+`python3 Snake_Game.py`  
+If speed is too fast, you can decrease it: `SPEED` variable in `helper.py`. 20 is recommended.  
+Remember direction is taken with relative to snake's current direction.  
+| Arrow Keys | Direction |
+|--|--|
+| LEFT | Left |
+| UP | Front |
+| RIGHT | Right |
+| DOWN | No such thing. |
 
 ----
 # The model

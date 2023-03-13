@@ -86,7 +86,7 @@
               "type": "backlink",
               "state": {
                 "file": "README.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -129,12 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15aa853caec0d11c",
+  "active": "24b06eb6449f16cb",
   "lastOpenFiles": [
     "images/later_games.png",
     "README.md"
