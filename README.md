@@ -23,13 +23,15 @@ The problem of colliding into its own body is still present. Here I tried to mit
 Initial Phases:
 <video width="800" height="450" controls>
   <source src="./game_play/noob.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Your browser does not support the video tag.  
+  [Click here to view video](./game_play/noob.mp4)
 </video>
 
 Trained:
 <video width="800" height="450" controls>
   <source src="./game_play/pro.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Your browser does not support the video tag.  
+  [Click here to view video](./game_play/pro.mp4)
 </video>
 
 ----
