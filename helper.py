@@ -13,7 +13,7 @@ HEAD_BORDER = (102,0,204)
 
 
 BLOCK_SIZE = 20
-SPEED = 150 #snake speed
+SPEED = 100 #snake speed
 SEARCH_TIME = 100 #more value => more time for snake to search food. Multiplied with len(body); exceeding which game-over
 BATCH_SIZE = 1000
 

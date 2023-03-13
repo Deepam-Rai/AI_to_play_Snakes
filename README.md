@@ -10,14 +10,27 @@ https://www.youtube.com/playlist?list=PLqnslRFeH2UrDh7vUmJ60YrmWd64mTTKV
 Merged version at freeCodeCamp channel:  
 https://www.youtube.com/watch?v=L8ypSXwyBds  
 
-Though this repository though has similarity to original one, it has considerable change in high level overview and implementation logic.
+Though this repository though has similarity to original one, it has considerable change in high level overview and implementation logic.  
+
+The problem of colliding into its own body is still present. Here I tried to mitigate that issue by providing the relative direction of tail block and mid-bock(of the body) as states to the snake.
 
 ----
 # Shots
 ![Intial Phases](./images/initial_game.png)
-![Later Phases](./images/later_games.png)
 ![Later Phases](./images/late_games2.png)
 
+# Gameplays
+Initial Phases:
+<video width="800" height="450" controls>
+  <source src="./game_play/noob.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Trained:
+<video width="800" height="450" controls>
+  <source src="./game_play/pro.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ----
 # Libraries used
