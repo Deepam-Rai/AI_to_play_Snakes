@@ -20,19 +20,13 @@ The problem of colliding into its own body is still present. Here I tried to mit
 ![Later Phases](./images/late_games2.png)
 
 # Gameplays
-Initial Phases:
-<video width="800" height="450" controls>
-  <source src="./game_play/noob.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
-  [Click here to view video if browser doesnt support rendering.](./game_play/noob.mp4)
 
-Trained:
-<video width="800" height="450" controls>
-  <source src="./game_play/pro.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
-  [Click here to view video if browser doesnt support rendering.](./game_play/pro.mp4)
+
+https://user-images.githubusercontent.com/78490078/224676430-233b1600-d0c7-4214-8574-24e0ecf2ffed.mp4
+
+
+
+https://user-images.githubusercontent.com/78490078/224676124-7bc84294-88e6-44dc-822f-898ac05cf0d5.mp4
 
 
 ----
