@@ -1,3 +1,16 @@
+
+----
+
+<div align="center">
+	<img alt="Static Badge" src="https://img.shields.io/badge/pygame-8A2BE2?&style=plastic" height="22">
+	<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=plastic" alt="Python Badge" height="22">
+	<img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=fff&style=plastic" alt="PyTorch Badge" height="22">
+	<img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="matplotlib" height="22">
+	<img alt="Static Badge" src="https://img.shields.io/badge/ipython-8A2BE2?&style=plastic" height="22">
+</div>
+
+----
+
 # AI_to_play_Snakes
 
 The code builds a neural network that learns to play classic Snakes game using Reinforcement Learning(Q-Learning) and saves the highest-scoring model in `./model` folder. The game environment is also built from scratch using pygame.  
